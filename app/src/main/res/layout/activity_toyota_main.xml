@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ToyotaMainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toyota"
+        android:textSize="30dp"
+        >
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/innova"
+                android:outlineProvider="background">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/innova"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Model Name"
+                        android:textSize="18sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#6b6b6b" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Innova"
+                        android:textSize="18sp"
+                        android:textColor="#6b6b6b"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Ex Showroom Price"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="₹14.83L"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/harrier"
+                android:outlineProvider="background">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/yaris"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Model Name"
+                        android:textSize="18sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#6b6b6b" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yaris"
+                        android:textSize="18sp"
+                        android:textColor="#6b6b6b"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Ex Showroom Price"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="₹23.47L"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/glanza"
+                android:outlineProvider="background">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/glanza"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Model Name"
+                        android:textSize="18sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#6b6b6b" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Glanza"
+                        android:textSize="18sp"
+                        android:textColor="#6b6b6b"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Ex Showroom Price"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="₹7.28L"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/fortuner"
+                android:outlineProvider="background">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/fortuner"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Model Name"
+                        android:textSize="18sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#6b6b6b" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fortuner"
+                        android:textSize="18sp"
+                        android:textColor="#6b6b6b"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Ex Showroom Price"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="₹27.55L"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/cruise"
+                android:outlineProvider="background">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/cruise"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Model Name"
+                        android:textSize="18sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#6b6b6b" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cruise"
+                        android:textSize="18sp"
+                        android:textColor="#6b6b6b"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Ex Showroom Price"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="₹9.25L"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/camry"
+                android:outlineProvider="background">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/camry"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Model Name"
+                        android:textSize="18sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#6b6b6b" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Camry"
+                        android:textSize="18sp"
+                        android:textColor="#6b6b6b"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Ex Showroom Price"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="₹36.55L"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
