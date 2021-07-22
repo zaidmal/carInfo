@@ -43,6 +43,27 @@ public class BmwcarActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        series7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BmwcarActivity.this, BMWSeries7Activity.class);
+                startActivity(intent);
+            }
+        });
+        i8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BmwcarActivity.this, BmwI8Activity.class);
+                startActivity(intent);
+            }
+        });
+       z4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BmwcarActivity.this,BmwZ4Activity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

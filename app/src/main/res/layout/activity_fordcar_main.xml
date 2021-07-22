@@ -237,7 +237,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="₹7.29L"
+                        android:text="₹7.69L"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginEnd="5dp"/>

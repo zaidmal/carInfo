@@ -6,16 +6,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.SearchView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
+
+
     ImageView imageView,audi,ford,hyundai,kia,mer,jeep,mg,tata,toyota,mitsubishi,walkswagon;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        imageView = (ImageView)findViewById(R.id.bmw1);
+        imageView = findViewById(R.id.bmw1);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -113,4 +120,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         }
+
+
     }

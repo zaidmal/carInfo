@@ -182,7 +182,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="₹9.31L"
+                        android:text="₹8.08L"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginEnd="5dp"/>
@@ -237,7 +237,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="₹9.99L"
+                        android:text="₹9.60L"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginEnd="5dp"/>

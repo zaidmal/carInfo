@@ -9,18 +9,20 @@
     android:weightSum="10"
     tools:context=".MainActivity">
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <GridLayout
-                android:layout_width="308dp"
-                android:layout_height="973dp"
+                android:layout_width="match_parent"
+                android:layout_height="932dp"
+                android:layout_marginTop="20dp"
                 android:layout_weight="8"
                 android:alignmentMode="alignMargins"
                 android:columnCount="2"
@@ -57,14 +59,6 @@
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/bmw" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="BMW"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -95,14 +89,6 @@
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/audi" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="AUDI"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -119,8 +105,7 @@
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp"
-                    >
+                    app:cardElevation="8dp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -130,20 +115,12 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/ford1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/ford"
-                            android:id="@+id/ford1"/>
+                            android:src="@drawable/ford" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="BMW"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -168,20 +145,12 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/hyundai"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/hyundai1"
-                            android:id="@+id/hyundai"/>
+                            android:src="@drawable/hyundai1" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="HYUNDAI"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -214,14 +183,6 @@
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/tata1" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="TATA"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -278,19 +239,11 @@
 
                         <ImageView
                             android:id="@+id/toyota"
-                            android:layout_width="182dp"
+                            android:layout_width="112dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/toyota" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="TOYOTA"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -321,14 +274,6 @@
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/mg" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="MG"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -400,14 +345,6 @@
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/jeep" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="JEEP"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -440,14 +377,7 @@
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/mitsubishi" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="MITSUBISHI"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
+
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -477,19 +407,8 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/volkswagen" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="VOLKSWAGEN"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/holo_green_light"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
             </GridLayout>
         </LinearLayout>
     </ScrollView>

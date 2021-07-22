@@ -9,7 +9,34 @@
         android:roundIcon="@mipmap/carinfologo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Carinfo">
-        <activity android:name=".BmwZ4Activity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WalksvagonVentoActivity" />
+        <activity android:name=".MitsubisiPajeroActivity" />
+        <activity android:name=".JeepCompassActivity" />
+        <activity android:name=".KiaSeltosActivity" />
+        <activity android:name=".MgHactorActivity" />
+        <activity android:name=".ToyotaInnovaActivity" />
+        <activity android:name=".MercedesSclassActivity" />
+        <activity android:name=".TataAltrozActivity" />
+        <activity android:name=".HyundaiI20Activity" />
+        <activity android:name=".FordaspireActivity" />
+        <activity android:name=".FordecosportActivity" />
+        <activity android:name=".FordfigoActivity" />
+        <activity android:name=".FordmustangActivity" />
+        <activity android:name=".FordendevourActivity" />
+        <activity android:name=".AudiRs7Activity" />
+        <activity android:name=".AudiRsq8Activity" />
+        <activity android:name=".AudiQ5Activity" />
+        <activity android:name=".AudiA4Activity" />
+        <activity android:name=".AudiQ3MainActivity" />
+        <activity android:name=".BmwZ4Activity" />
         <activity android:name=".BmwI8Activity" />
         <activity android:name=".BMWSeries7Activity" />
         <activity android:name=".WalksvegonMainActivity" />
@@ -32,7 +59,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
